@@ -1,0 +1,51 @@
+/*CSS is Cascading Style Sheet. This code below makes the HTML look pretty! You can create this as a separate file on your computer called style.css. */
+
+/*The first three groups of code here set up the size and length of the webtext, so it doesn't stretch across the entire browser. Note how a tag in the HTML correspondances to a take in CSS. For example, the <html> and <body> tags connect to the same <html> and <body> tags in CSS. Note that after these tags in CSS, curly brackets follow and inside are some directions on how the <html> and <body> should be styled. */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Helvetica", sans-serif;
+}
+
+body {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+
+/*This code below styles the header and the navigation bar at the top of the webpage. Edit the code and see what changes you make */
+header {
+  background-color: #4b0082;
+  padding: 30px;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+
+#topnav {
+  background-color: black;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+#topnav li {
+  color: white;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block;
+}
+
+#topnav a {
+  text-decoration: none;
+  color: white;
+}
