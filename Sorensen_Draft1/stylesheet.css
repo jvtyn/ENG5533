@@ -1,0 +1,50 @@
+body {
+    max-width: 900px;
+    margin: auto;
+    background: rgb(32, 30, 30);
+    padding: 10px;
+}
+
+html, body {
+    font-family: 'Palatino', sans-serif;
+    color: whitesmoke 
+}
+
+header {
+    background-color: rgb(110, 1, 110);
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: yellow;
+  }
+
+  
+  #topnav {
+    background-color:rgb(32, 30, 30);
+    overflow: hidden;
+    display: flex; 
+    justify-content: center;
+  }
+
+  #topnav a {
+    color: yellow;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline-block;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.footer {
+    background-color: purple;
+    position: relative;
+    height: 20px;
+    margin-top:10px;
+    clear: both;
+}
